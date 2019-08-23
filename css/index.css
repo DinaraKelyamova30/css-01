@@ -1,0 +1,46 @@
+/* {
+    background-color: lightgray;
+} not reccomended */
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+#chosen {
+    font-style: italic;
+} /* id */
+
+.underline {
+    text-decoration: underline;
+} /* class */
+
+div p {
+    border: 1px solid violet;
+} /* just for div */
+
+p:hover {
+    transform: rotate(180deg);
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+
+/* Specificity!!!
+
+.container #hello {
+    color: green;
+    }  Specificity - 110%
+
+
+
+    */
